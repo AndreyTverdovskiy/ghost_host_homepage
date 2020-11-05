@@ -1,0 +1,41 @@
+header{
+    background-color: black; /* transparent*/
+    display: flex;
+    flex-direction: row;
+    text-align-last: justify;
+    align-items: center;
+    margin: 0 auto  ;
+}
+
+body{
+    margin: 0;  
+}
+
+.logo{
+    width: 133px;
+    height: 29px;
+    margin: 0 auto;  
+    padding: 31px 430px 901px 204px;
+}
+
+.menu{
+    width: 631px;
+    height: 16px;
+    padding: 39px 257px 907px 0px;  
+
+    font-family: 'Lato', sans-serif;
+    font-Size: 16px;
+
+}
+
+.menu_element{
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu_element:hover{
+    text-decoration: underline;
+}
