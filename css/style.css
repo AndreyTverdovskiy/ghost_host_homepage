@@ -1,28 +1,24 @@
 header{
-    background-color: black; /* transparent*/
+    background-color: transparent; /* transparent*/
     display: flex;
-    flex-direction: row;
-    text-align-last: justify;
-    align-items: center;
-    margin: 0 auto  ;
+    height: 85px;
+    width: 100% ;
+    position: absolute;
+    top: 0%;
+
 }
 
 body{
     margin: 0;  
+    position: relative;
+    
 }
 
 .logo{
     width: 133px;
-    height: 29px;
-    margin: 0 auto;  
-    padding: 31px 430px 901px 204px;
 }
 
 .menu{
-    width: 631px;
-    height: 16px;
-    padding: 39px 257px 907px 0px;  
-
     font-family: 'Lato', sans-serif;
     font-Size: 16px;
 
@@ -30,12 +26,32 @@ body{
 
 .menu_element{
     color: white;
-    margin: 0 auto;
     position: relative;
     align-items: center;
     text-decoration: none;
+    padding: 0 35px;
+
 }
 
 .menu_element:hover{
     text-decoration: underline;
+}
+
+.nav_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 10%;
+}
+
+.top{
+    padding-top: 85px;
+    height: 875px;
+    background-image: url("../img/Header\ BG@1X.png");
+    color: white;
+    display: flex;
+    align-items: center;
+
 }
