@@ -1,9 +1,11 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
     margin: 0;  
     position: relative;      
 }
 
-header{
+header {
     background-color: transparent; 
     display: flex;
     height: 85px;
@@ -24,31 +26,29 @@ header{
     border-bottom: 1.2px solid #4d4d4d;
 }
 
-.logo{
+.logo {
     width: 133px;
 }
 
-.menu{
+.menu {
     font-family: 'Lato', sans-serif;
     font-Size: 16px;
-
 }
 
-.menu_element:hover{
+.menu_element:hover {
     border-bottom: 1.2px solid #f8f3f3;
     padding-bottom: 32px;
 }
 
-.menu_element{
+.menu_element {
     color: white;
     position: relative;
     align-items: center;
     text-decoration: none;
     padding: 0 35px;
-
 }
 
-.top{
+.top {
     padding-top: 85px;
     height: 875px;
     background-image: url("../img/Header\ BG@1X.png");
@@ -56,5 +56,12 @@ header{
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.top_title {
+    font-family: 'Lato', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
 
 }
