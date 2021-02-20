@@ -4,9 +4,16 @@
     padding: 0;
     border: 0;
 }
+
+html{
+    width: 100%;
+    margin: 0 auto  ;
+}
+
 body {
-    margin: 0;  
-    position: relative;      
+    margin: 0    auto;
+    position: relative;   
+       
 }
 
 header {
@@ -46,7 +53,7 @@ header {
 
 .menu_element {
     color: white;
-    position: relative;
+    position: relative; 
     align-items: center;
     text-decoration: none;
     padding: 0 35px;
