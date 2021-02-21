@@ -119,4 +119,41 @@ header {
     border-right: 30px solid #2fac6c;
 }
 
+.domain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column; 
+}
+
+.domain_title{
+    padding-top:90px;
+    color: #383737;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.domain_description{
+    padding-top:27px;
+    color: #A2A2A2;
+    font-size: 16px;
+}
+
+.domain_form{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 4px double #A2A2A2;
+    width: 890px;
+    height: 50px;
+    font-size: 15px;
+}
+
+
+::placeholder{
+    font-size: 15px;
+}
+
 
